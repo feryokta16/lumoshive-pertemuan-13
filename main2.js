@@ -100,13 +100,11 @@ class Transaksi {
 }
 
 const barang1 = new Barang("Sepatu", 500000);
-const barang2 = new Barang("Bola", 70000);
-const barang3 = new Barang("Bola Basket", 50000);
+const barang2 = new Barang("Bola", 300000);
 
 const keranjang = new Keranjang();
 keranjang.tambahBarang(barang1);
 keranjang.tambahBarang(barang2);
-keranjang.tambahBarang(barang3);
 
 const member = new Membership("Budi", "gold");
 
